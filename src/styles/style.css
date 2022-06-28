@@ -1,0 +1,79 @@
+:root{
+    font-size: calc(11px + 0.5vw);
+    --bc: rgb(0, 21, 79);
+}
+
+
+
+body{
+    background-color: #000;
+    background-image: url(../../public/assets/images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+header{
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.connect-wallet-button{
+    max-width: 250px;
+    cursor: pointer;
+    overflow-x: hidden;
+    color: rgb(182, 206, 60);
+    font-size: 1rem;
+    border: 1px solid;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    
+}
+
+.connect-wallet-button:hover{
+    color: #ccc;
+}
+
+.connect-wallet-button:active{
+    box-shadow: 0.3px 0.3px 12px rgb(182, 206, 60);
+}
+
+.send-sol-wrapper{
+    height: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0.3px 0.3px 2px grey;
+    background-color: rgba(0,0,0,0.3);
+}
+.sol-currency{
+    width: 30px;
+    height: 30px;
+}
+.send-sol{
+    width: 100%;
+    max-width: 200px;
+    font-size: 1.2rem;
+    color: var(--bc);
+    background-color: #ccc;
+    cursor: pointer;
+    color: rgb(0, 21, 79);
+    transition: transform 0.3s linear;
+    -webkit-transition: transform 0.3s linear;
+    -moz-transition: transform 0.3s linear;
+    -ms-transition: transform 0.3s linear;
+    -o-transition: transform 0.3s linear;
+}
+
+.send-sol:hover{
+    transform: scale(0.96);
+    -webkit-transform: scale(0.96);
+    -moz-transform: scale(0.96);
+    -ms-transform: scale(0.96);
+    -o-transform: scale(0.96);
+}
